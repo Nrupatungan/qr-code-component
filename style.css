@@ -32,7 +32,7 @@ main{
     row-gap: 2rem;
     border-radius: 1.5rem;
     transition: width 0.5s ease;
-    animation: introSlide 1s forwards;
+    animation: introLoad 1s forwards;
 }
 
 img{
@@ -78,7 +78,7 @@ footer{
 }
 
 /* Animation */
-@keyframes introSlide {
+@keyframes introLoad {
     0%{
         transform: translateY(-6.67rem);
         opacity: 0;
